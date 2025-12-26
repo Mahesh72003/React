@@ -42,20 +42,28 @@ body {
 .restro-card {
   box-sizing: border-box;
   width: 240px;
-  min-height: 220px;
+  height: 460px;
   border: 1px solid #ddd;
   padding: 12px;
   border-radius: 6px;
   background: #fff;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .restro-card:hover {
- border: 3px solid black;
- cursor: pointer;
+ box-sizing: border-box;
+  width: 240px;
+  height: 460px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  cursor: pointer;;
 }
 .restro-img {
   width: 100%;
