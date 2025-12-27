@@ -1,5 +1,4 @@
 const RestroCard = ({ resData }) => {
-  console.log(resData);
   const { cloudinaryImageId, name, cuisines, avgRating, sla, costForTwo } =
     resData.card.card.info;
   return (

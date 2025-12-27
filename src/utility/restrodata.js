@@ -1,4 +1,4 @@
-const resData = [
+  export let resData = [
   {
     card: {
       card: {
@@ -978,4 +978,3 @@ const resData = [
 ];
 
 
-export default resData;

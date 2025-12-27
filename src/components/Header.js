@@ -7,8 +7,8 @@ const Header = () => {
       ></img>
       <div>
         <ul className="Header-list">
-          <li>First item</li>
-          <li>Second item</li>
+          <li>About</li>
+          <li></li>
           <li>Third item</li>
         </ul>
       </div>
