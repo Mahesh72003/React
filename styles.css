@@ -1,0 +1,101 @@
+/* Header Container */
+.Header {
+  border: 1px solid black;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between the logo and list */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+/* Logo Styling */
+.logo {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+/* Header List Styling */
+.Header-list {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start; /* Align items to the left in the list */
+  margin-left: auto; /* Push list to the right */
+}
+
+/* Style for List Items (optional) */
+.Header-list span {
+  font-size: 16px;
+  color: #333; /* Adjust text color */
+  cursor: pointer; /* Make items clickable (optional) */
+}
+
+body {
+  margin: 10px;
+}
+.restro-list {
+  margin: 10px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.restro-card {
+  box-sizing: border-box;
+  width: 240px;
+  height: 460px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.restro-card:hover {
+ box-sizing: border-box;
+  width: 240px;
+  height: 460px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  cursor: pointer;;
+}
+.restro-img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.Search{
+  margin: 10px;
+ border: 1.5px solid black;
+  border-radius: 10px;
+  width: 10cm;
+  height: 1cm;
+  background-color: rgb(245, 241, 241);
+  
+}
+.Search:hover{
+  border: 3px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.Search-btn{
+  border: #333;
+  width: 3cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(193, 186, 186);
+  margin: 10px;
+  color: black;
+  text-size-adjust: 10px;
+}
+.Search-btn:hover{
+  background-color: #ddd;
+  cursor: pointer;
+}
