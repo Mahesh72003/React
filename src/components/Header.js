@@ -1,4 +1,17 @@
+import { useState, useEffect } from "react";
+import { Link } from "react-router";
+
 const Header = () => {
+  const [Login, setLogin] = useState(true);
+
+  useEffect(() => {
+    console.log("Login state changed:", Login);
+  }, [Login]);
+
+  const loging = () => {
+    setLogin(!Login);
+  };
+
   return (
     <div className="Header">
       <img
@@ -7,14 +20,18 @@ const Header = () => {
       ></img>
       <div>
         <ul className="Header-list">
-          <li>About</li>
-          <li></li>
-          <li>Third item</li>
+          <li><Link to="/about">About</Link></li>
+          <li>Cart</li>
+          <li><Link to="/">Home</Link></li>
+          <li>
+            <button className="Header-Login" onClick={loging}>
+              {Login ? "Log Out" : "Log In"}
+            </button>
+          </li>
         </ul>
       </div>
     </div>
   );
 };
-
 
 export default Header;

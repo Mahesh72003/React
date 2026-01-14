@@ -14,9 +14,16 @@
   flex-shrink: 0; /* Prevent logo from shrinking */
 }
 
+.Header-Login {
+ 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 /* Header List Styling */
 .Header-list {
   display: flex;
+  list-style-type: none; 
   gap: 20px;
   justify-content: flex-start; /* Align items to the left in the list */
   margin-left: auto; /* Push list to the right */
@@ -28,6 +35,8 @@
   color: #333; /* Adjust text color */
   cursor: pointer; /* Make items clickable (optional) */
 }
+
+
 
 body {
   margin: 10px;
